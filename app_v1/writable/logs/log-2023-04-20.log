@@ -1,0 +1,681 @@
+ERROR - 2023-04-20 04:38:42 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.qq.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(53): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(49): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 04:38:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 04:38:42 --> 
+ERROR - 2023-04-20 04:43:04 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.qq.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(53): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(49): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 04:43:04 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 04:43:04 --> 
+ERROR - 2023-04-20 04:52:51 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.qq.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(53): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(49): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 04:52:51 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 04:52:51 --> 
+ERROR - 2023-04-20 05:19:34 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.qq.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(53): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(49): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 05:19:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 05:19:34 --> 
+ERROR - 2023-04-20 05:20:24 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.qq.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(53): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(49): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 05:20:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 05:20:24 --> 
+ERROR - 2023-04-20 05:28:46 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.qq.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(53): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(49): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 05:28:46 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 05:28:46 --> 
+CRITICAL - 2023-04-20 05:32:34 --> Undefined variable $model
+in APPPATH/Controllers/Register.php on line 20.
+ 1 APPPATH/Controllers/Register.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 05:38:57 --> Undefined variable $model
+in APPPATH/Controllers/Register.php on line 17.
+ 1 APPPATH/Controllers/Register.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-20 05:39:22 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.qq.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(53): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 05:39:22 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 05:39:22 --> 
+ERROR - 2023-04-20 05:45:25 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.qq.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 05:45:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 05:45:25 --> 
+CRITICAL - 2023-04-20 05:45:25 --> Call to undefined method CodeIgniter\Email\Email::print_debugger()
+in APPPATH/Models/Register_model.php on line 55.
+ 1 APPPATH/Controllers/Register.php(18): App\Models\Register->send_email()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-20 05:50:03 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.qq.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 05:50:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 05:50:03 --> 
+ERROR - 2023-04-20 05:51:41 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.qq.com:25 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 05:51:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 05:51:41 --> 
+ERROR - 2023-04-20 05:58:46 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.163.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 05:58:46 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 05:58:46 --> 
+ERROR - 2023-04-20 05:59:09 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.163.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 05:59:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 05:59:09 --> 
+ERROR - 2023-04-20 06:02:53 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.qq.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 06:02:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 06:02:53 --> 
+ERROR - 2023-04-20 06:05:13 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.qq.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 06:05:13 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 06:05:13 --> 
+ERROR - 2023-04-20 06:05:57 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 06:05:57 --> Exit status code: 127
+Unable to open a socket to Sendmail. Please check settings.
+ERROR - 2023-04-20 06:07:04 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.qq.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 06:07:04 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 06:07:04 --> 
+ERROR - 2023-04-20 06:08:55 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.qq.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 06:08:55 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 06:08:55 --> 
+ERROR - 2023-04-20 06:11:44 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.qq.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 06:11:44 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 06:11:44 --> 
+ERROR - 2023-04-20 06:12:50 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.qq.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 06:12:50 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 06:12:50 --> 
+ERROR - 2023-04-20 06:13:50 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: Name or service not known in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 06:13:50 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 06:13:50 --> 
+ERROR - 2023-04-20 06:13:59 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: Name or service not known in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 06:13:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 06:13:59 --> 
+ERROR - 2023-04-20 06:14:15 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: Name or service not known in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 06:14:15 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 06:14:15 --> 
+ERROR - 2023-04-20 06:14:22 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: Name or service not known in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 06:14:22 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 06:14:22 --> 
+ERROR - 2023-04-20 06:18:31 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.qq.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 06:18:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 06:18:31 --> 
+ERROR - 2023-04-20 06:19:28 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.qq.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 06:19:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 06:19:28 --> 
+ERROR - 2023-04-20 06:20:19 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.qq.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 06:20:19 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 06:20:19 --> 
+ERROR - 2023-04-20 09:47:11 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for outlook.office365.coms failed: Name or service not known in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 09:47:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 09:47:11 --> 
+ERROR - 2023-04-20 09:49:18 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for outlook.office365.coms failed: Name or service not known in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 09:49:18 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 09:49:18 --> 
+ERROR - 2023-04-20 09:52:51 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.office365.com:587 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 09:52:51 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 09:52:51 --> 
+ERROR - 2023-04-20 09:55:54 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.office365.com:587 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 09:55:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 09:55:54 --> 
+ERROR - 2023-04-20 10:12:03 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.163.com:25 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 10:12:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 10:12:03 --> 
+ERROR - 2023-04-20 10:46:20 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.mail.com:587 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(18): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 10:46:20 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 10:46:20 --> 
+CRITICAL - 2023-04-20 11:04:30 --> Undefined variable $res
+in APPPATH/Models/Register_model.php on line 77.
+ 1 APPPATH/Models/Register_model.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(18): App\Models\Register->send_email()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-20 11:25:29 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.mail.com:587 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(54): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 11:25:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 11:25:29 --> 
+ERROR - 2023-04-20 11:42:19 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.mail.com:587 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(54): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 11:42:19 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 11:42:19 --> 
+ERROR - 2023-04-20 12:45:16 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.mail.com:587 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(54): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 12:45:16 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 12:45:16 --> 
+ERROR - 2023-04-20 12:52:48 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://smtp.mail.com:465 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(54): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 12:52:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 12:52:48 --> 
+ERROR - 2023-04-20 13:17:08 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.mail.com:25 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(54): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 13:17:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 13:17:08 --> 
+ERROR - 2023-04-20 13:17:38 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to ssl://smtp.mail.com:25 (Connection timed out) in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(54): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 13:17:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 13:17:38 --> 
+ERROR - 2023-04-20 21:12:47 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /var/www/htdocs/app_v1/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/app_v1/system/Email/Email.php(1863): fsockopen()
+#2 /var/www/htdocs/app_v1/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/app_v1/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/app_v1/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/app_v1/app/Models/Register_model.php(54): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/app_v1/app/Controllers/Register.php(54): App\Models\Register->send_email()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-20 21:12:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 21:12:47 --> 
+CRITICAL - 2023-04-20 21:47:47 --> Call to undefined function App\Models\help()
+in APPPATH/Models/Register_model.php on line 46.
+ 1 APPPATH/Controllers/Register.php(54): App\Models\Register->send_email()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-20 21:48:12 --> Class "App\Models\Email" not found
+in APPPATH/Models/Register_model.php on line 48.
+ 1 APPPATH/Controllers/Register.php(54): App\Models\Register->send_email()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-20 21:55:56 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-20 21:55:56 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Fri, 21 Apr 2023 07:55:50 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-38ea7613.zones.eait.uq.edu.au [172.23.80.218], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 250 2.1.0 <chao.ma2@uqconnect.edu.au>... Sender ok
+
+to: 250 2.1.5 <1026340369@qq.com>... Recipient ok
+
+data: 354 Enter mail, end with "." on a line by itself
+
+
+quit: 250 2.0.0 33KLtoha022491 Message accepted for delivery
+
+The following SMTP error was encountered: 250 2.0.0 33KLtoha022491 Message accepted for delivery
+
+The following SMTP error was encountered: 

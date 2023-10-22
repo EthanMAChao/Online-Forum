@@ -1,0 +1,24 @@
+CRITICAL - 2023-05-09 01:01:44 --> Undefined constant "App\Controllers\eid"
+in APPPATH/Controllers/Login.php on line 576.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->delete_event_action()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 01:02:13 --> Undefined variable $num
+in APPPATH/Controllers/Login.php on line 578.
+ 1 APPPATH/Controllers/Login.php(578): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->delete_event_action()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 01:04:26 --> Undefined variable $events
+in APPPATH/Views/timetable.php on line 30.
+ 1 APPPATH/Views/timetable.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/timetable.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Login.php(583): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->delete_event_action()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,225 @@
+CRITICAL - 2023-05-13 11:53:25 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /var/www/htdocs/app_v1/app/Controllers/Login.php on line 760
+in SYSTEMPATH/Database/BaseBuilder.php on line 984.
+ 1 APPPATH/Controllers/Login.php(760): CodeIgniter\Database\BaseBuilder->like()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->ajaxSearch()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 11:53:34 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /var/www/htdocs/app_v1/app/Controllers/Login.php on line 760
+in SYSTEMPATH/Database/BaseBuilder.php on line 984.
+ 1 APPPATH/Controllers/Login.php(760): CodeIgniter\Database\BaseBuilder->like()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->ajaxSearch()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:04:11 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /var/www/htdocs/app_v1/app/Controllers/Login.php on line 760
+in SYSTEMPATH/Database/BaseBuilder.php on line 984.
+ 1 APPPATH/Controllers/Login.php(760): CodeIgniter\Database\BaseBuilder->like()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->ajaxSearch()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:07:32 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /var/www/htdocs/app_v1/app/Controllers/Login.php on line 762
+in SYSTEMPATH/Database/BaseBuilder.php on line 984.
+ 1 APPPATH/Controllers/Login.php(762): CodeIgniter\Database\BaseBuilder->like()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->search_action()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:33:22 --> Undefined array key "key"
+in APPPATH/Controllers/Login.php on line 715.
+ 1 APPPATH/Controllers/Login.php(715): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:33:58 --> Undefined variable $title
+in APPPATH/Controllers/Login.php on line 719.
+ 1 APPPATH/Controllers/Login.php(719): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:44:10 --> Array to string conversion
+in APPPATH/Controllers/Login.php on line 726.
+ 1 APPPATH/Controllers/Login.php(726): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:48:45 --> Undefined array key "value"
+in APPPATH/Controllers/Login.php on line 716.
+ 1 APPPATH/Controllers/Login.php(716): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:48:49 --> Undefined array key "value"
+in APPPATH/Controllers/Login.php on line 716.
+ 1 APPPATH/Controllers/Login.php(716): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:48:50 --> Undefined array key "value"
+in APPPATH/Controllers/Login.php on line 716.
+ 1 APPPATH/Controllers/Login.php(716): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:48:51 --> Undefined array key "value"
+in APPPATH/Controllers/Login.php on line 716.
+ 1 APPPATH/Controllers/Login.php(716): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:48:51 --> Undefined array key "value"
+in APPPATH/Controllers/Login.php on line 716.
+ 1 APPPATH/Controllers/Login.php(716): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:50:08 --> Undefined array key "key"
+in APPPATH/Controllers/Login.php on line 716.
+ 1 APPPATH/Controllers/Login.php(716): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:50:11 --> Undefined array key "key"
+in APPPATH/Controllers/Login.php on line 716.
+ 1 APPPATH/Controllers/Login.php(716): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:50:24 --> Undefined array key "Brisbane is beautiful"
+in APPPATH/Controllers/Login.php on line 716.
+ 1 APPPATH/Controllers/Login.php(716): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:50:51 --> Undefined array key "Brisbane is beautiful"
+in APPPATH/Controllers/Login.php on line 716.
+ 1 APPPATH/Controllers/Login.php(716): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:50:52 --> Undefined array key "Brisbane is beautiful"
+in APPPATH/Controllers/Login.php on line 716.
+ 1 APPPATH/Controllers/Login.php(716): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:50:52 --> Undefined array key "Brisbane is beautiful"
+in APPPATH/Controllers/Login.php on line 716.
+ 1 APPPATH/Controllers/Login.php(716): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:51:48 --> Undefined array key "Brisbane is beautiful"
+in APPPATH/Controllers/Login.php on line 716.
+ 1 APPPATH/Controllers/Login.php(716): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:51:49 --> Undefined array key "Brisbane is beautiful"
+in APPPATH/Controllers/Login.php on line 716.
+ 1 APPPATH/Controllers/Login.php(716): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:51:50 --> Undefined array key "Brisbane is beautiful"
+in APPPATH/Controllers/Login.php on line 716.
+ 1 APPPATH/Controllers/Login.php(716): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:51:52 --> Undefined array key "Brisbane is beautiful"
+in APPPATH/Controllers/Login.php on line 716.
+ 1 APPPATH/Controllers/Login.php(716): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:51:52 --> Undefined array key "Brisbane is beautiful"
+in APPPATH/Controllers/Login.php on line 716.
+ 1 APPPATH/Controllers/Login.php(716): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:52:37 --> Undefined array key "i like flower"
+in APPPATH/Controllers/Login.php on line 716.
+ 1 APPPATH/Controllers/Login.php(716): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:54:07 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /var/www/htdocs/app_v1/app/Controllers/Login.php on line 763
+in SYSTEMPATH/Database/BaseBuilder.php on line 984.
+ 1 APPPATH/Controllers/Login.php(763): CodeIgniter\Database\BaseBuilder->like()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->search_action()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:55:26 --> arsort(): Argument #1 ($array) must be of type array, null given
+in APPPATH/Controllers/Login.php on line 713.
+ 1 APPPATH/Controllers/Login.php(713): arsort()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 12:56:53 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Login.php on line 715.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:05:01 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Login.php on line 715.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:06:00 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Login.php on line 716.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:08:50 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Login.php on line 715.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:10:54 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Login.php on line 715.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:10:58 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Login.php on line 715.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:16:16 --> Attempt to read property "content" on null
+in APPPATH/Controllers/Login.php on line 720.
+ 1 APPPATH/Controllers/Login.php(720): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

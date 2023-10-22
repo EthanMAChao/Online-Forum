@@ -1,0 +1,61 @@
+CRITICAL - 2023-05-12 07:54:33 --> Call to undefined function App\Controllers\merge_sort()
+in APPPATH/Controllers/Login.php on line 713.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:55:04 --> Call to undefined function App\Controllers\merge_sort()
+in APPPATH/Controllers/Login.php on line 713.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:56:38 --> Call to undefined function App\Controllers\merge_sort()
+in APPPATH/Controllers/Login.php on line 724.
+ 1 APPPATH/Controllers/Login.php(713): App\Controllers\Login->merge_sort()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:57:51 --> Call to undefined function App\Controllers\merge()
+in APPPATH/Controllers/Login.php on line 726.
+ 1 APPPATH/Controllers/Login.php(713): App\Controllers\Login->merge_sort()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:58:39 --> Array to string conversion
+in APPPATH/Controllers/Login.php on line 714.
+ 1 APPPATH/Controllers/Login.php(714): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:13:08 --> Trying to access array offset on value of type bool
+in APPPATH/Controllers/Login.php on line 725.
+ 1 APPPATH/Controllers/Login.php(725): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:15:07 --> Array to string conversion
+in APPPATH/Controllers/Login.php on line 724.
+ 1 APPPATH/Controllers/Login.php(724): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:29:16 --> Attempt to read property "key" on array
+in APPPATH/Controllers/Login.php on line 723.
+ 1 APPPATH/Controllers/Login.php(723): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->rank()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 14:53:09 --> Attempt to read property "id" on null
+in APPPATH/Controllers/Login.php on line 500.
+ 1 APPPATH/Controllers/Login.php(500): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

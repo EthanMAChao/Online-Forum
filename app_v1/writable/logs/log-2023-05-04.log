@@ -1,0 +1,14 @@
+CRITICAL - 2023-05-04 06:15:05 --> Undefined property: App\Controllers\Login::$load
+in APPPATH/Controllers/Login.php on line 430.
+ 1 APPPATH/Controllers/Login.php(430): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->file_uploads_action()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 06:15:08 --> Undefined property: App\Controllers\Login::$load
+in APPPATH/Controllers/Login.php on line 430.
+ 1 APPPATH/Controllers/Login.php(430): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->file_uploads_action()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

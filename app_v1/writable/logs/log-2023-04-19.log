@@ -1,0 +1,48 @@
+CRITICAL - 2023-04-19 02:43:50 --> Undefined variable $builder
+in APPPATH/Models/Register_model.php on line 21.
+ 1 APPPATH/Models/Register_model.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(22): App\Models\Register->check_email()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 12:02:19 --> syntax error, unexpected token "if"
+in APPPATH/Config/Routes.php on line 58.
+ 1 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 12:03:08 --> Too few arguments to function App\Controllers\Register::check_email(), 0 passed in /var/www/htdocs/app_v1/system/CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH/Controllers/Register.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_email()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 12:04:19 --> Undefined variable $code
+in APPPATH/Controllers/Register.php on line 58.
+ 1 APPPATH/Controllers/Register.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_email()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 12:04:56 --> Undefined variable $session
+in APPPATH/Controllers/Register.php on line 59.
+ 1 APPPATH/Controllers/Register.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_email()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 12:05:37 --> Call to undefined function App\Controllers\destory()
+in APPPATH/Controllers/Register.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_email()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 13:41:46 --> Undefined variable $email_
+in APPPATH/Models/Register_model.php on line 48.
+ 1 APPPATH/Models/Register_model.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(49): App\Models\Register->send_email()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

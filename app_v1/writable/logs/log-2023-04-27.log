@@ -1,0 +1,224 @@
+CRITICAL - 2023-04-27 07:19:48 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::getClientMineType()
+in APPPATH/Controllers/Login.php on line 221.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 07:21:22 --> Undefined constant "App\Controllers\WEITEPATH"
+in APPPATH/Controllers/Login.php on line 235.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 07:21:47 --> imagesx(): Argument #1 ($image) must be of type GdImage, string given
+in APPPATH/Controllers/Login.php on line 237.
+ 1 APPPATH/Controllers/Login.php(237): imagesx()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 07:24:27 --> Call to undefined function App\Controllers\imagecreatefromgjpeg()
+in APPPATH/Controllers/Login.php on line 232.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 07:26:03 --> imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x00 0x00
+in APPPATH/Controllers/Login.php on line 232.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(232): imagecreatefromjpeg()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 07:26:50 --> imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x00 0x00
+in APPPATH/Controllers/Login.php on line 233.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(233): imagecreatefromjpeg()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 07:28:34 --> Undefined variable $newName
+in APPPATH/Controllers/Login.php on line 257.
+ 1 APPPATH/Controllers/Login.php(257): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 07:29:43 --> imagejpeg(/var/www/htdocs/app_v1/writable/uploads/resized/1682580583_835a9a70ab8041dcdfe2.png.png): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 257.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(257): imagejpeg()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 07:30:26 --> imagepng(/var/www/htdocs/app_v1/writable/uploads/resized/1682580626_b1173ed333a13d4deb56.png.png): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 254.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(254): imagepng()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 07:45:41 --> Undefined variable $data
+in APPPATH/Views/user.php on line 26.
+ 1 APPPATH/Views/user.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Login.php(99): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->profile_index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 10:44:10 --> imagecreatefrompng(/var/www/htdocs/app_v1/writable/uploads/Screenshot 2023-03-06 at 9.17.57 pm.png): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 226.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(226): imagecreatefrompng()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 10:45:08 --> imagecreatefrompng(/var/www/htdocs/app_v1/writable/uploads/Screenshot 2023-03-06 at 9.17.57 pm.png): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 226.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(226): imagecreatefrompng()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 10:48:33 --> imagecreatefrompng(/var/www/htdocs/app_v1/writable/uploads/Screenshot 2023-03-06 at 9.17.57 pm.png): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 226.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(226): imagecreatefrompng()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 10:49:12 --> imagecreatefrompng(/var/www/htdocs/app_v1/writable/uploads/Screenshot 2023-03-06 at 9.17.57 pm.png): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 226.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(226): imagecreatefrompng()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 10:53:09 --> imagecreatefrompng(/var/www/htdocs/app_v1/writable/upload/Screenshot 2023-03-06 at 9.17.57 pm.png): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 226.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(226): imagecreatefrompng()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 10:54:31 --> imagecreatefrompng(/var/www/htdocs/app_v1/writable/upload/Screenshot 2023-03-06 at 9.17.57 pm.png): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 226.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(226): imagecreatefrompng()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 10:59:12 --> imagecreatefrompng(/var/www/htdocs/app_v1/writable/upload/Screenshot 2023-03-06 at 9.17.57 pm.png): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 231.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(231): imagecreatefrompng()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:05:21 --> imagecreatefrompng(/var/www/htdocs/app_v1/writable/uploads/Screenshot 2023-03-06 at 9.17.57 pm.png): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 226.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(226): imagecreatefrompng()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:08:20 --> finfo_file(/tmp/php4AawUU): Failed to open stream: No such file or directory
+in SYSTEMPATH/Files/File.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Files/File.php(115): finfo_file()
+ 3 APPPATH/Controllers/Login.php(224): CodeIgniter\Files\File->getMimeType()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:13:40 --> imagecreatefrompng(/var/www/htdocs/app_v1/writable/uploads/Screenshot 2023-03-06 at 9.17.57 pm.png): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 228.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(228): imagecreatefrompng()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:15:56 --> finfo_file(/tmp/phpm9PCyT): Failed to open stream: No such file or directory
+in SYSTEMPATH/Files/File.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Files/File.php(115): finfo_file()
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+ 4 SYSTEMPATH/HTTP/Files/UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+ 5 SYSTEMPATH/Files/File.php(127): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+ 6 APPPATH/Controllers/Login.php(237): CodeIgniter\Files\File->getRandomName()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:16:38 --> finfo_file(/tmp/phpr8I7eW): Failed to open stream: No such file or directory
+in SYSTEMPATH/Files/File.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Files/File.php(115): finfo_file()
+ 3 APPPATH/Controllers/Login.php(224): CodeIgniter\Files\File->getMimeType()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:25:25 --> finfo_file(/tmp/phpg7gL7V): Failed to open stream: No such file or directory
+in SYSTEMPATH/Files/File.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Files/File.php(115): finfo_file()
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+ 4 SYSTEMPATH/HTTP/Files/UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+ 5 SYSTEMPATH/Files/File.php(127): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+ 6 APPPATH/Controllers/Login.php(243): CodeIgniter\Files\File->getRandomName()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:32:19 --> imagecreatefromjpeg(/var/www/htdocs/app_v1/writable/uploads/IMG_2901.jpeg): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 239.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(239): imagecreatefromjpeg()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:33:32 --> imagecreatefromjpeg(/var/www/htdocs/app_v1/writable/uploads/IMG_2901.jpeg): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 239.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(239): imagecreatefromjpeg()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:35:56 --> finfo_file(/tmp/phpFO8dvV): Failed to open stream: No such file or directory
+in SYSTEMPATH/Files/File.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Files/File.php(115): finfo_file()
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+ 4 SYSTEMPATH/HTTP/Files/UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+ 5 SYSTEMPATH/Files/File.php(127): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+ 6 APPPATH/Controllers/Login.php(245): CodeIgniter\Files\File->getRandomName()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 11:36:44 --> Undefined variable $photo_name
+in APPPATH/Controllers/Login.php on line 269.
+ 1 APPPATH/Controllers/Login.php(269): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->add_photo()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

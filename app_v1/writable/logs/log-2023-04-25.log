@@ -1,0 +1,54 @@
+CRITICAL - 2023-04-25 02:34:31 --> Undefined variable $lat
+in APPPATH/Views/location.php on line 26.
+ 1 APPPATH/Views/location.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/location.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Login.php(245): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->location_index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 22:20:06 --> Undefined variable $data_l
+in APPPATH/Controllers/Login.php on line 279.
+ 1 APPPATH/Controllers/Login.php(279): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->location_index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 22:20:51 --> Undefined variable $data_l
+in APPPATH/Views/location.php on line 2.
+ 1 APPPATH/Views/location.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/location.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Login.php(282): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->location_index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 23:43:48 --> Undefined constant "App\Controllers\code"
+in APPPATH/Controllers/Login.php on line 181.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->change_email_ver_action()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 23:44:22 --> Undefined constant "App\Controllers\code"
+in APPPATH/Controllers/Login.php on line 181.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->change_email_ver_action()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 23:45:19 --> Undefined constant "App\Controllers\code"
+in APPPATH/Controllers/Login.php on line 181.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->change_email_ver_action()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 23:50:42 --> Undefined variable $email_new
+in APPPATH/Controllers/Login.php on line 162.
+ 1 APPPATH/Controllers/Login.php(162): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->change_email_ver_index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

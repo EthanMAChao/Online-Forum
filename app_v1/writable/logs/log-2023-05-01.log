@@ -1,0 +1,26 @@
+ERROR - 2023-05-01 23:21:58 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-05-01 23:21:58 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Tue, 2 May 2023 09:21:50 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-38ea7613.zones.eait.uq.edu.au [172.23.80.218], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 250 2.1.0 <chao.ma2@uqconnect.edu.au>... Sender ok
+
+to: 250 2.1.5 <chao.ma96429@gmail.com>... Recipient ok
+
+data: 354 Enter mail, end with "." on a line by itself
+
+
+quit: 250 2.0.0 341NLolb001051 Message accepted for delivery
+
+The following SMTP error was encountered: 250 2.0.0 341NLolb001051 Message accepted for delivery
+
+The following SMTP error was encountered: 

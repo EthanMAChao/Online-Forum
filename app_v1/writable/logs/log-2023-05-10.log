@@ -1,0 +1,277 @@
+CRITICAL - 2023-05-10 11:22:35 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 510.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:25:48 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 510.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:27:15 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 510.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:27:16 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 510.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:28:22 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:31:25 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:31:29 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:31:30 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:31:32 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:31:33 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:31:34 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:31:35 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:31:35 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:31:37 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:31:38 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:31:39 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:34:42 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:34:47 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:34:48 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:34:49 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:34:50 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:34:51 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:37:17 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:37:18 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:41:52 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:45:56 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:45:58 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:48:25 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:48:27 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:48:28 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:48:29 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:48:30 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:48:30 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:48:32 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:48:33 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:48:34 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:48:34 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:48:36 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:48:36 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:48:37 --> Class "CodeIgniter\Helpers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:57:38 --> Class "App\Controllers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 512.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:59:35 --> Class "App\Controllers\CC\Calendar" not found
+in APPPATH/Controllers/Login.php on line 512.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:00:35 --> Class "App\Controllers\Calendar" not found
+in APPPATH/Controllers/Login.php on line 512.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:22:54 --> Undefined variable $events
+in APPPATH/Controllers/Login.php on line 506.
+ 1 APPPATH/Controllers/Login.php(506): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:25:42 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Login.php on line 507.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:27:40 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Login.php on line 507.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

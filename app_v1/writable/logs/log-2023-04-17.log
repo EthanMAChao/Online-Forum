@@ -1,0 +1,206 @@
+CRITICAL - 2023-04-17 13:04:44 --> Undefined variable $email
+in APPPATH/Models/User_model.php on line 15.
+ 1 APPPATH/Models/User_model.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(38): App\Models\User_model->login()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-17 14:18:23 --> mysqli_sql_exception: Column 'username' cannot be null in /var/www/htdocs/app_v1/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/app_v1/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/app_v1/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/app_v1/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/app_v1/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/app_v1/app/Models/Register_model.php(18): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/app_v1/app/Controllers/Register.php(21): App\Models\Register->register()
+#6 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-17 14:18:23 --> Column 'username' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Register_model.php(18): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(21): App\Models\Register->register()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 14:54:36 --> Undefined variable $check_username
+in APPPATH/Controllers/Register.php on line 21.
+ 1 APPPATH/Controllers/Register.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 14:55:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get_where()
+in APPPATH/Models/Register_model.php on line 10.
+ 1 APPPATH/Controllers/Register.php(21): App\Models\Register->check_username()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 15:01:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get_where()
+in APPPATH/Models/Register_model.php on line 10.
+ 1 APPPATH/Controllers/Register.php(21): App\Models\Register->check_username()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 15:06:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get_where()
+in APPPATH/Models/Register_model.php on line 10.
+ 1 APPPATH/Controllers/Register.php(21): App\Models\Register->check_username()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 15:08:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get_where()
+in APPPATH/Models/Register_model.php on line 11.
+ 1 APPPATH/Controllers/Register.php(21): App\Models\Register->check_username()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 15:10:09 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+in APPPATH/Models/Register_model.php on line 11.
+ 1 APPPATH/Controllers/Register.php(21): App\Models\Register->check_username()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 15:55:08 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/Register_model.php(10): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Register.php(21): App\Models\Register->check_username()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 15:55:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/Register_model.php(10): CodeIgniter\Model->__get()
+ 4 APPPATH/Controllers/Register.php(21): App\Models\Register->check_username()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 15:57:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get_where()
+in APPPATH/Models/Register_model.php on line 11.
+ 1 APPPATH/Controllers/Register.php(21): App\Models\Register->check_username()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 15:58:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::get_where()
+in APPPATH/Models/Register_model.php on line 12.
+ 1 APPPATH/Controllers/Register.php(21): App\Models\Register->check_username()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 15:59:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::get_Where()
+in APPPATH/Models/Register_model.php on line 12.
+ 1 APPPATH/Controllers/Register.php(21): App\Models\Register->check_username()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-17 16:00:54 --> mysqli_sql_exception: Duplicate entry 'mike' for key 'users_app_v1.PRIMARY' in /var/www/htdocs/app_v1/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/app_v1/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/app_v1/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/app_v1/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/app_v1/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/app_v1/app/Models/Register_model.php(24): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/app_v1/app/Controllers/Register.php(22): App\Models\Register->register()
+#6 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-17 16:00:54 --> Duplicate entry 'mike' for key 'users_app_v1.PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Register_model.php(24): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(22): App\Models\Register->register()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 16:05:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH/Models/Register_model.php on line 13.
+ 1 APPPATH/Controllers/Register.php(21): App\Models\Register->check_username()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 16:07:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH/Models/Register_model.php on line 13.
+ 1 APPPATH/Controllers/Register.php(21): App\Models\Register->check_username()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 16:07:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH/Models/Register_model.php on line 13.
+ 1 APPPATH/Controllers/Register.php(21): App\Models\Register->check_username()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-17 16:11:07 --> mysqli_sql_exception: Duplicate entry 'mike' for key 'users_app_v1.PRIMARY' in /var/www/htdocs/app_v1/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/app_v1/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/app_v1/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/app_v1/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/app_v1/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/app_v1/app/Models/Register_model.php(24): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/app_v1/app/Controllers/Register.php(22): App\Models\Register->register()
+#6 /var/www/htdocs/app_v1/system/CodeIgniter.php(934): App\Controllers\Register->check_register()
+#7 /var/www/htdocs/app_v1/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/app_v1/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/app_v1/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-17 16:11:07 --> Duplicate entry 'mike' for key 'users_app_v1.PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Register_model.php(24): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(22): App\Models\Register->register()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 16:20:48 --> syntax error, unexpected token "return", expecting "," or ";"
+in APPPATH/Models/Register_model.php on line 14.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(155): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(125): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(86): CodeIgniter\Config\Factories::__callStatic()
+ 7 SYSTEMPATH/Common.php(829): CodeIgniter\Config\Factories::models()
+ 8 APPPATH/Controllers/Register.php(20): model()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 16:21:01 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Models/Register_model.php on line 13.
+ 1 APPPATH/Controllers/Register.php(21): App\Models\Register->check_username()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-17 16:21:19 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Models/Register_model.php on line 13.
+ 1 APPPATH/Controllers/Register.php(21): App\Models\Register->check_username()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_register()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

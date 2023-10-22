@@ -1,0 +1,78 @@
+CRITICAL - 2023-05-07 12:21:36 --> require(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 6.
+ 1 APPPATH/Controllers/Login.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(6): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Login.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:21:39 --> require(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 6.
+ 1 APPPATH/Controllers/Login.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(6): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Login.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:23:42 --> require(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 6.
+ 1 APPPATH/Controllers/Login.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(6): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Login.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:23:44 --> require(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 6.
+ 1 APPPATH/Controllers/Login.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(6): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Login.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:27:19 --> require(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 6.
+ 1 APPPATH/Controllers/Login.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(6): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Login.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:27:20 --> require(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Login.php on line 6.
+ 1 APPPATH/Controllers/Login.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(6): require()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Login.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 12:30:27 --> Class "benhall14\phpCalendar\Calendar" not found
+in APPPATH/Controllers/Login.php on line 494.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->timetable()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
